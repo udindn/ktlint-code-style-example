@@ -1,0 +1,1 @@
+# ktlint-code-style-example
