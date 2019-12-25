@@ -11,7 +11,7 @@ Menggunakan linter memungkinkan tim Anda mengesampingkan preferensi pribadi dan 
 
 **Integrasi**
 
-Tambahkan kedalam *.gradle untuk tugas gradle kita :
+Tambahkan kedalam build.gradle (Module : app) untuk tugas gradle kita :
 
 ```
 repositories {
