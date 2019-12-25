@@ -1,4 +1,4 @@
-**Tentang KTLINT**\
+**Tentang KTLINT**
 
 Mengapa menggunakan [Ktlint](https://ktlint.github.io/) ?\
 “An anti-bikeshedding Kotlin linter with built-in formatter.”
@@ -9,7 +9,8 @@ Orang mungkin mengatakan bahwa mereka tidak memerlukan linter ini karena mereka 
 
 Menggunakan linter memungkinkan tim Anda mengesampingkan preferensi pribadi dan mengikuti pedoman yang diterima oleh mayoritas.
 
-**Integrasi**\
+**Integrasi**
+
 Tambahkan kedalam file.gradle untuk tugas gradle kita :
 
 ```
@@ -87,7 +88,8 @@ BUILD SUCCESSFUL in 2s
 10.22.52: Task execution finished 'ktlintFormat'.
 ```
 
-**Penyesuain Aturan**\
+**Penyesuain Aturan**
+
 Untuk mengaktifkan aturan tertentu, Anda harus mengaktifkan mode verbose ( ktlint --verbose ...). Di akhir setiap baris Anda akan melihat kode kesalahan. Gunakan itu sebagai argumen untuk ktlint-disable arahan (dibahas di bawah).
 
 ```
