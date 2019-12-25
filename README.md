@@ -90,7 +90,7 @@ BUILD SUCCESSFUL in 2s
 
 **Penyesuain Aturan**
 
-Untuk mengaktifkan aturan tertentu, Anda harus mengaktifkan mode verbose ( ktlint --verbose ...). Di akhir setiap baris Anda akan melihat kode kesalahan. Gunakan itu sebagai argumen untuk ktlint-disable arahan (dibahas di bawah).
+Untuk mengaktifkan aturan tertentu, Anda harus mengaktifkan mode verbose ( ktlint --verbose ...). Di akhir setiap baris Anda akan melihat kode kesalahan. Gunakan itu sebagai argumen untuk ktlint-disable arahan (dibahas di bawah). Contoh apabila akan menon-aktifkan aturan pelarangan import wildcard :
 
 ```
 import package.* // ktlint-disable no-wildcard-imports
@@ -100,7 +100,7 @@ import package.a.*
 import package.b.*
 /* ktlint-enable no-wildcard-imports */
 ```
-To disable all checks:
+Menon-aktifkan semua pengecekan :
 
 ```
 import package.* // ktlint-disable
