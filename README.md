@@ -108,6 +108,13 @@ import package.* // ktlint-disable
 ```
 Selain itu KTLINT juga menyediakan EditorConfig agar kita dapat melakukan penyesuain aturan. Lihat [EditorConfig](https://github.com/pinterest/ktlint) pada Github
 
+**Laporan**
+
+baris dibawah ini berfungsi membuat file laporan yang akan tersimpan di folder build
+```
+ "--reporter=plain", "--reporter=checkstyle,output=${buildDir}/ktlint.xml"
+```
+
 **Referensi :**
 1. https://ktlint.github.io/ ktlint
 2. https://github.com/pinterest/ktlint ktlint Github
